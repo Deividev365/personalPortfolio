@@ -54,15 +54,10 @@ a {
 
 }
 
-* {
-    pointer-events: none;
+.closeNavIcon {
 
-}
-
-.navItems .closeNavIcon {
-
-    display: none;
-  
+  display: none;
+ 
 }
 
 
@@ -81,7 +76,7 @@ a {
       --top: 1rem;
       transition: 0.3s ease transform;
       background-color: var(--deep-dark);
-      padding: 2rem;
+      padding: 5rem;
       width: 90%;
       max-width: 300px;
       border-radius: 12px;
@@ -96,19 +91,12 @@ a {
         width: 3rem;
         margin: 0 0 0 auto;
         cursor: pointer;
-
       }
 
-        * {
-            
-          pointer-events: none;
-
-        }
-      
       li {
 
         display: block;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
 
 }

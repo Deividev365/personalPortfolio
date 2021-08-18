@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 
-import 'global.css';
+import '../src/global.css';
 
 
 
