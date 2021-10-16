@@ -11,14 +11,10 @@ import Contact from '../src/pages/Contact';
 export default function App() {
     return(
        <BrowserRouter>
-       
-        <Route exact path="/" component={Home} />
-        <Route  path="/about" component={About} />
-        <Route  path="/projects" component={Projects} />
-        <Route  path="/contact" component={Contact} />
-
-
-
+            <Route exact path="/" component={Home} />
+            <Route  path="/about" component={About} />
+            <Route  path="/projects" component={Projects} />
+            <Route  path="/contact" component={Contact} />
        </BrowserRouter>
     )
 }

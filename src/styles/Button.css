@@ -1,0 +1,9 @@
+.container-button {
+    margin-top: 2rem;
+}
+
+.button {
+    font-size: 2.2rem;
+    background-color: cadetblue;
+    padding: 0.7em 2em;
+}

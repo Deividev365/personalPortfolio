@@ -4,10 +4,10 @@ import React from 'react';
 import '../styles/Ptext.css';
 
 
-export default function Ptext() {
+export default function Ptext(props) {
     return(
-        <div>
-            <p>This is the this</p>
+        <div className="ptext">
+            <p>{props.children}</p>
         </div>
     );
 }

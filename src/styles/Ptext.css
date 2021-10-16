@@ -1,0 +1,17 @@
+.ptext {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 2.8rem;
+    line-height: 2.3rem;
+    color: azure;
+    background-color: blueviolet;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   .ptext {
+       font-size: 1.8rem;
+   }
+
+}
